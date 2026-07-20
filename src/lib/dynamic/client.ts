@@ -7,4 +7,5 @@ import { EthereumWalletConnectors } from '@dynamic-labs/ethereum';
 export const dynamicConfig = {
   environmentId: 'PLACEHOLDER_DYNAMIC_ENVIRONMENT_ID',
   walletConnectors: [EthereumWalletConnectors],
+  settings: { initialAuthenticationMode: 'connect-only' },
 };

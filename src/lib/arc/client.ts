@@ -1,7 +1,7 @@
-import { CircleAppKit } from '@circle-fin/app-kit';
+import { AppKit } from '@circle-fin/app-kit';
 
 // Initialization of Circle App Kit
-const circleAppKit = new CircleAppKit({
+const appKit = new AppKit({
   apiKey: 'PLACEHOLDER_CIRCLE_API_KEY',
   environment: 'sandbox', // or 'production'
 });
@@ -10,7 +10,7 @@ export const arcCircleClient = {
   // Capability: unifiedBalance()
   async getUnifiedBalance(walletAddress: string) {
     // Placeholder logic for unifiedBalance()
-    return await circleAppKit.getWalletBalance(walletAddress);
+    return await appKit.getWalletBalance(walletAddress);
   },
 
   // Capability: send()
@@ -21,6 +21,6 @@ export const arcCircleClient = {
     currency: string;
   }) {
     // Placeholder logic for send()
-    return await circleAppKit.transfer(params);
+    return await appKit.transfer(params);
   }
 };
