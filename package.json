@@ -12,6 +12,7 @@
     "@circle-fin/app-kit": "1.10.0",
     "@dynamic-labs/ethereum": "4.92.4",
     "@dynamic-labs/sdk-react-core": "4.92.4",
+    "@supabase/supabase-js": "2.110.7",
     "next": "14.2.35",
     "react": "^18",
     "react-dom": "^18"
