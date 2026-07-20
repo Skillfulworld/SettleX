@@ -1,0 +1,12 @@
+:root {
+  background: #F3F4F6;
+  color: #1F2937;
+}
+
+.settlex-action-button {
+  background: #000000;
+  color: #FFFFFF;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+}
